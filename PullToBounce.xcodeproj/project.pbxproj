@@ -16,11 +16,6 @@
 		03807D4F1D01BA3800A9D5FF /* BounceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C9E7F1B7B3669002D55E7 /* BounceView.swift */; };
 		03807D501D01BA3C00A9D5FF /* BallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C9E7E1B7B3669002D55E7 /* BallView.swift */; };
 		03807D511D01BA4A00A9D5FF /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C9E831B7B3669002D55E7 /* WaveView.swift */; };
-		03807D521D01BADE00A9D5FF /* PullToBounceWrapper.swift in Headers */ = {isa = PBXBuildFile; fileRef = B0DE064D1B7C511F0087EE7F /* PullToBounceWrapper.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		03807D581D01BAFB00A9D5FF /* NSTimerEx.swift in Headers */ = {isa = PBXBuildFile; fileRef = B0DE064A1B7C51190087EE7F /* NSTimerEx.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		03807D591D01BAFB00A9D5FF /* BounceView.swift in Headers */ = {isa = PBXBuildFile; fileRef = B04C9E7F1B7B3669002D55E7 /* BounceView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		03807D5A1D01BAFB00A9D5FF /* BallView.swift in Headers */ = {isa = PBXBuildFile; fileRef = B04C9E7E1B7B3669002D55E7 /* BallView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		03807D5B1D01BAFB00A9D5FF /* WaveView.swift in Headers */ = {isa = PBXBuildFile; fileRef = B04C9E831B7B3669002D55E7 /* WaveView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		B04C9E741B7B35FD002D55E7 /* PullToBounceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C9E731B7B35FD002D55E7 /* PullToBounceTests.swift */; };
 		B04C9E841B7B3669002D55E7 /* BallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C9E7E1B7B3669002D55E7 /* BallView.swift */; };
 		B04C9E851B7B3669002D55E7 /* BounceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C9E7F1B7B3669002D55E7 /* BounceView.swift */; };
@@ -236,11 +231,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				03807D421D01B9E400A9D5FF /* PullToBounce-Framework.h in Headers */,
-				03807D591D01BAFB00A9D5FF /* BounceView.swift in Headers */,
-				03807D5A1D01BAFB00A9D5FF /* BallView.swift in Headers */,
-				03807D5B1D01BAFB00A9D5FF /* WaveView.swift in Headers */,
-				03807D581D01BAFB00A9D5FF /* NSTimerEx.swift in Headers */,
-				03807D521D01BADE00A9D5FF /* PullToBounceWrapper.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
