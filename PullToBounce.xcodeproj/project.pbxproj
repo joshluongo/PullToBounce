@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03807D421D01B9E400A9D5FF /* PullToBounce-Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 03807D411D01B9E400A9D5FF /* PullToBounce-Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03807D461D01B9E400A9D5FF /* PullToBounce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03807D3F1D01B9E300A9D5FF /* PullToBounce.framework */; };
+		03807D471D01B9E400A9D5FF /* PullToBounce.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 03807D3F1D01B9E300A9D5FF /* PullToBounce.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		03807D4C1D01BA3200A9D5FF /* CGRectEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DE06491B7C51190087EE7F /* CGRectEx.swift */; };
+		03807D4D1D01BA3400A9D5FF /* NSTimerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DE064A1B7C51190087EE7F /* NSTimerEx.swift */; };
+		03807D4E1D01BA3600A9D5FF /* PullToBounceWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DE064D1B7C511F0087EE7F /* PullToBounceWrapper.swift */; };
+		03807D4F1D01BA3800A9D5FF /* BounceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C9E7F1B7B3669002D55E7 /* BounceView.swift */; };
+		03807D501D01BA3C00A9D5FF /* BallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C9E7E1B7B3669002D55E7 /* BallView.swift */; };
+		03807D511D01BA4A00A9D5FF /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C9E831B7B3669002D55E7 /* WaveView.swift */; };
+		03807D521D01BADE00A9D5FF /* PullToBounceWrapper.swift in Headers */ = {isa = PBXBuildFile; fileRef = B0DE064D1B7C511F0087EE7F /* PullToBounceWrapper.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		03807D581D01BAFB00A9D5FF /* NSTimerEx.swift in Headers */ = {isa = PBXBuildFile; fileRef = B0DE064A1B7C51190087EE7F /* NSTimerEx.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		03807D591D01BAFB00A9D5FF /* BounceView.swift in Headers */ = {isa = PBXBuildFile; fileRef = B04C9E7F1B7B3669002D55E7 /* BounceView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		03807D5A1D01BAFB00A9D5FF /* BallView.swift in Headers */ = {isa = PBXBuildFile; fileRef = B04C9E7E1B7B3669002D55E7 /* BallView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		03807D5B1D01BAFB00A9D5FF /* WaveView.swift in Headers */ = {isa = PBXBuildFile; fileRef = B04C9E831B7B3669002D55E7 /* WaveView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		B04C9E741B7B35FD002D55E7 /* PullToBounceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C9E731B7B35FD002D55E7 /* PullToBounceTests.swift */; };
 		B04C9E841B7B3669002D55E7 /* BallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C9E7E1B7B3669002D55E7 /* BallView.swift */; };
 		B04C9E851B7B3669002D55E7 /* BounceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C9E7F1B7B3669002D55E7 /* BounceView.swift */; };
@@ -15,7 +29,6 @@
 		B04C9E981B7B3761002D55E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B04C9E921B7B3761002D55E7 /* LaunchScreen.xib */; };
 		B04C9E991B7B3761002D55E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B04C9E941B7B3761002D55E7 /* Main.storyboard */; };
 		B04C9E9A1B7B3761002D55E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B04C9E961B7B3761002D55E7 /* Images.xcassets */; };
-		B04C9E9D1B7B377D002D55E7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B04C9E9C1B7B377D002D55E7 /* Info.plist */; };
 		B04C9E9F1B7B3838002D55E7 /* TableViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C9E9E1B7B3838002D55E7 /* TableViewExample.swift */; };
 		B04C9EA31B7B4D19002D55E7 /* SampleTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C9EA21B7B4D19002D55E7 /* SampleTableView.swift */; };
 		B04C9EA51B7B50EB002D55E7 /* SampleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C9EA41B7B50EB002D55E7 /* SampleCell.swift */; };
@@ -26,6 +39,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		03807D441D01B9E400A9D5FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B04C9E501B7B35FD002D55E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03807D3E1D01B9E300A9D5FF;
+			remoteInfo = "PullToBounce-Framework";
+		};
 		B04C9E6E1B7B35FD002D55E7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B04C9E501B7B35FD002D55E7 /* Project object */;
@@ -35,8 +55,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		03807D4B1D01B9E400A9D5FF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				03807D471D01B9E400A9D5FF /* PullToBounce.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		B04C9E581B7B35FD002D55E7 /* PullToBounce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PullToBounce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03807D3F1D01B9E300A9D5FF /* PullToBounce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PullToBounce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03807D411D01B9E400A9D5FF /* PullToBounce-Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PullToBounce-Framework.h"; sourceTree = "<group>"; };
+		03807D431D01B9E400A9D5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B04C9E581B7B35FD002D55E7 /* PullToBounce-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PullToBounce-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B04C9E6D1B7B35FD002D55E7 /* PullToBounceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PullToBounceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B04C9E721B7B35FD002D55E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B04C9E731B7B35FD002D55E7 /* PullToBounceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToBounceTests.swift; sourceTree = "<group>"; };
@@ -58,10 +95,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		03807D3B1D01B9E300A9D5FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B04C9E551B7B35FD002D55E7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03807D461D01B9E400A9D5FF /* PullToBounce.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,11 +120,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03807D401D01B9E400A9D5FF /* PullToBounce-Framework */ = {
+			isa = PBXGroup;
+			children = (
+				03807D411D01B9E400A9D5FF /* PullToBounce-Framework.h */,
+				03807D431D01B9E400A9D5FF /* Info.plist */,
+			);
+			path = "PullToBounce-Framework";
+			sourceTree = "<group>";
+		};
 		B04C9E4F1B7B35FD002D55E7 = {
 			isa = PBXGroup;
 			children = (
 				B04C9E5A1B7B35FD002D55E7 /* PullToBounce */,
 				B04C9E701B7B35FD002D55E7 /* PullToBounceTests */,
+				03807D401D01B9E400A9D5FF /* PullToBounce-Framework */,
 				B04C9E591B7B35FD002D55E7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,8 +142,9 @@
 		B04C9E591B7B35FD002D55E7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B04C9E581B7B35FD002D55E7 /* PullToBounce.app */,
+				B04C9E581B7B35FD002D55E7 /* PullToBounce-Example.app */,
 				B04C9E6D1B7B35FD002D55E7 /* PullToBounceTests.xctest */,
+				03807D3F1D01B9E300A9D5FF /* PullToBounce.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -174,22 +230,58 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		03807D3C1D01B9E300A9D5FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03807D421D01B9E400A9D5FF /* PullToBounce-Framework.h in Headers */,
+				03807D591D01BAFB00A9D5FF /* BounceView.swift in Headers */,
+				03807D5A1D01BAFB00A9D5FF /* BallView.swift in Headers */,
+				03807D5B1D01BAFB00A9D5FF /* WaveView.swift in Headers */,
+				03807D581D01BAFB00A9D5FF /* NSTimerEx.swift in Headers */,
+				03807D521D01BADE00A9D5FF /* PullToBounceWrapper.swift in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		B04C9E571B7B35FD002D55E7 /* PullToBounce */ = {
+		03807D3E1D01B9E300A9D5FF /* PullToBounce */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B04C9E771B7B35FD002D55E7 /* Build configuration list for PBXNativeTarget "PullToBounce" */;
+			buildConfigurationList = 03807D4A1D01B9E400A9D5FF /* Build configuration list for PBXNativeTarget "PullToBounce" */;
 			buildPhases = (
-				B04C9E541B7B35FD002D55E7 /* Sources */,
-				B04C9E551B7B35FD002D55E7 /* Frameworks */,
-				B04C9E561B7B35FD002D55E7 /* Resources */,
+				03807D3A1D01B9E300A9D5FF /* Sources */,
+				03807D3B1D01B9E300A9D5FF /* Frameworks */,
+				03807D3C1D01B9E300A9D5FF /* Headers */,
+				03807D3D1D01B9E300A9D5FF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = PullToBounce;
+			productName = "PullToBounce-Framework";
+			productReference = 03807D3F1D01B9E300A9D5FF /* PullToBounce.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B04C9E571B7B35FD002D55E7 /* PullToBounce-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B04C9E771B7B35FD002D55E7 /* Build configuration list for PBXNativeTarget "PullToBounce-Example" */;
+			buildPhases = (
+				B04C9E541B7B35FD002D55E7 /* Sources */,
+				B04C9E551B7B35FD002D55E7 /* Frameworks */,
+				B04C9E561B7B35FD002D55E7 /* Resources */,
+				03807D4B1D01B9E400A9D5FF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03807D451D01B9E400A9D5FF /* PBXTargetDependency */,
+			);
+			name = "PullToBounce-Example";
 			productName = PullToBounce;
-			productReference = B04C9E581B7B35FD002D55E7 /* PullToBounce.app */;
+			productReference = B04C9E581B7B35FD002D55E7 /* PullToBounce-Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B04C9E6C1B7B35FD002D55E7 /* PullToBounceTests */ = {
@@ -218,9 +310,12 @@
 			attributes = {
 				LastSwiftMigration = 0700;
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Uniface;
 				TargetAttributes = {
+					03807D3E1D01B9E300A9D5FF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					B04C9E571B7B35FD002D55E7 = {
 						CreatedOnToolsVersion = 6.4;
 					};
@@ -243,20 +338,27 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B04C9E571B7B35FD002D55E7 /* PullToBounce */,
+				B04C9E571B7B35FD002D55E7 /* PullToBounce-Example */,
 				B04C9E6C1B7B35FD002D55E7 /* PullToBounceTests */,
+				03807D3E1D01B9E300A9D5FF /* PullToBounce */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		03807D3D1D01B9E300A9D5FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B04C9E561B7B35FD002D55E7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B04C9E9A1B7B3761002D55E7 /* Images.xcassets in Resources */,
 				B04C9E981B7B3761002D55E7 /* LaunchScreen.xib in Resources */,
-				B04C9E9D1B7B377D002D55E7 /* Info.plist in Resources */,
 				B04C9E991B7B3761002D55E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +373,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		03807D3A1D01B9E300A9D5FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03807D4C1D01BA3200A9D5FF /* CGRectEx.swift in Sources */,
+				03807D4D1D01BA3400A9D5FF /* NSTimerEx.swift in Sources */,
+				03807D4E1D01BA3600A9D5FF /* PullToBounceWrapper.swift in Sources */,
+				03807D4F1D01BA3800A9D5FF /* BounceView.swift in Sources */,
+				03807D501D01BA3C00A9D5FF /* BallView.swift in Sources */,
+				03807D511D01BA4A00A9D5FF /* WaveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B04C9E541B7B35FD002D55E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -300,9 +415,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		03807D451D01B9E400A9D5FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03807D3E1D01B9E300A9D5FF /* PullToBounce */;
+			targetProxy = 03807D441D01B9E400A9D5FF /* PBXContainerItemProxy */;
+		};
 		B04C9E6F1B7B35FD002D55E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B04C9E571B7B35FD002D55E7 /* PullToBounce */;
+			target = B04C9E571B7B35FD002D55E7 /* PullToBounce-Example */;
 			targetProxy = B04C9E6E1B7B35FD002D55E7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -327,6 +447,50 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		03807D481D01B9E400A9D5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = "PullToBounce-Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twitter.tk-365.PullToBounce";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		03807D491D01B9E400A9D5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "PullToBounce-Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twitter.tk-365.PullToBounce";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		B04C9E751B7B35FD002D55E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -348,6 +512,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -414,8 +579,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = PullToBounce/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twitter.tk-365.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -424,8 +591,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = PullToBounce/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twitter.tk-365.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -444,6 +613,7 @@
 				);
 				INFOPLIST_FILE = PullToBounceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twitter.tk-365.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PullToBounce.app/PullToBounce";
 			};
@@ -459,6 +629,7 @@
 				);
 				INFOPLIST_FILE = PullToBounceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twitter.tk-365.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PullToBounce.app/PullToBounce";
 			};
@@ -467,6 +638,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		03807D4A1D01B9E400A9D5FF /* Build configuration list for PBXNativeTarget "PullToBounce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03807D481D01B9E400A9D5FF /* Debug */,
+				03807D491D01B9E400A9D5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		B04C9E531B7B35FD002D55E7 /* Build configuration list for PBXProject "PullToBounce" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -476,7 +655,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B04C9E771B7B35FD002D55E7 /* Build configuration list for PBXNativeTarget "PullToBounce" */ = {
+		B04C9E771B7B35FD002D55E7 /* Build configuration list for PBXNativeTarget "PullToBounce-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B04C9E781B7B35FD002D55E7 /* Debug */,

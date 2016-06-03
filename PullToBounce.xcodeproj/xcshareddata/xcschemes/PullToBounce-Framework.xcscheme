@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B04C9E571B7B35FD002D55E7"
-               BuildableName = "PullToBounce-Example.app"
-               BlueprintName = "PullToBounce-Example"
+               BlueprintIdentifier = "03807D3E1D01B9E300A9D5FF"
+               BuildableName = "PullToBounce.framework"
+               BlueprintName = "PullToBounce"
                ReferencedContainer = "container:PullToBounce.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B04C9E6C1B7B35FD002D55E7"
-               BuildableName = "PullToBounceTests.xctest"
-               BlueprintName = "PullToBounceTests"
-               ReferencedContainer = "container:PullToBounce.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B04C9E571B7B35FD002D55E7"
-            BuildableName = "PullToBounce-Example.app"
-            BlueprintName = "PullToBounce-Example"
-            ReferencedContainer = "container:PullToBounce.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -61,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B04C9E571B7B35FD002D55E7"
-            BuildableName = "PullToBounce-Example.app"
-            BlueprintName = "PullToBounce-Example"
+            BlueprintIdentifier = "03807D3E1D01B9E300A9D5FF"
+            BuildableName = "PullToBounce.framework"
+            BlueprintName = "PullToBounce"
             ReferencedContainer = "container:PullToBounce.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -80,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B04C9E571B7B35FD002D55E7"
-            BuildableName = "PullToBounce-Example.app"
-            BlueprintName = "PullToBounce-Example"
+            BlueprintIdentifier = "03807D3E1D01B9E300A9D5FF"
+            BuildableName = "PullToBounce.framework"
+            BlueprintName = "PullToBounce"
             ReferencedContainer = "container:PullToBounce.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
